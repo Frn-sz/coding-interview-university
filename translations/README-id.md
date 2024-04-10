@@ -2,6 +2,14 @@
 
 Versi asli: [Bahasa Inggris](../README.md)
 
+<div align="center">
+	<hr />
+    <p>
+        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+    </p>
+    <hr />
+</div>
+
 ## Ringkasan apa ini?
 
 Ini adalah rencana studi multi-bulan saya untuk beralih dari pengembang web (otodidak, tanpa gelar Ilmu Komputer) menjadi insinyur perangkat lunak untuk perusahaan besar.
@@ -240,7 +248,7 @@ Ini adalah daftar pendek yang saya gunakan. Ini disingkat untuk menghemat waktu 
 
 ### Persiapan Interview
 
-- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [ ] [Programming Interviews Exposed: Secrets to Landing Your Next Job, 4th Edition](https://www.wiley.com/en-us/Programming+Interviews+Exposed%3A+Coding+Your+Way+Through+the+Interview%2C+4th+Edition-p-9781119418481)
     - jawaban di C++ and Java
     - direkomendasikan di Google candidate coaching
     - ini adalah pemanasan yang baik untuk Cracking the Coding Interview
@@ -434,6 +442,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 ## Struktur Data
 
@@ -456,8 +465,8 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] push(item)
         - [ ] insert(index, item) - menyisipkan item pada indeks, menggeser nilai indeks dan elemen tambahan ke kanan
         - [ ] prepend(item) - dapat menggunakan sisipan di atas pada indeks 0
-        - [ ] pop() - hapus dari akhir, nilai kembali
-        - [ ] delete(index) - hapus item pada indeks, menggeser semua elemen tertinggal ke kiri
+        - [ ] pop() - menghapus item dari akhir, nilai kembali
+        - [ ] delete(index) - menghapus item pada indeks, menggeser semua elemen tertinggal ke kiri
         - [ ] remove(item) - mencari nilai dan menghapus indeks yang menahannya (meskipun di banyak tempat)
         - [ ] find(item) - mencari nilai dan mengembalikan indeks pertama dengan nilai itu, -1 jika tidak ditemukan
         - [ ] resize(new_capacity) // fungsi pribadi
@@ -475,6 +484,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [Kode C (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - bukan keseluruhan video, hanya bagian tentang struct Node dan alokasi memori
     - [ ] Linked List vs Array:
@@ -506,12 +516,14 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 - ### Stack
     - [ ] [Stack (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [ ] Tidak akan diterapkan. Implementasi dengan array itu sepele
 
 - ### Queue
     - Queue (Antrean)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implementasikan menggunakan linked-list, dengan tail pointer:
         - enqueue(value) - menambah nilai pada posisi di ekor
         - dequeue() - mengembalikan nilai dan menghapus elemen yang paling baru ditambahkan (depan)
@@ -537,6 +549,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [(Lanjutan) Pengacakan: Universal & Hashing Sempurna (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Lanjutan) Hash sempurna (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Kursus Online:
         - [ ] [Tabel Hash Inti (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
@@ -559,6 +572,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Pencarian Biner (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [Pencarian Biner (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+    - [ ] [[Review] Binary search in 4 minutes (video)](https://youtu.be/fDKIpRe8GW4)
     - [ ] Implementkan:
         - pencarian biner (pada susunan bilangan bulat yang diurutkan)
         - pencarian biner menggunakan rekursi
@@ -612,6 +626,9 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
             - dalam urutan (DFS: kiri, sendiri/self, kanan)
             - pasca urutan (DFS: kiri, kanan, sendiri/self)
             - pra urutan (DFS: sendiri/self, kiri, kanan)
+    - [ ] [[Review] Breadth-first search in 4 minutes (video)](https://youtu.be/HZ5YTanv5QE)
+    - [ ] [[Review] Depth-first search in 4 minutes (video)](https://youtu.be/Urx87-NMm6c)
+    - [ ] [[Review] Tree Traversal (playlist) in 11 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 
 - ### Binary search trees: BSTs
     - [ ] [Ulasan Binary Search Tree (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -662,9 +679,10 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [MIT: Heaps dan Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [CS 61B Kuliah 24: Antrian Prioritas (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
+    - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
     - [ ] Menerapkan sebuah max-heap:
         - [ ] insert
-        - [ ] sift_up - dibutuhkan untuk memasukkan
+        - [ ] sift_up - digunakan untuk memasukkan
         - [ ] get_max - mengembalikan item maksimal, tanpa menghapusnya
         - [ ] get_size() - mengembalikan jumlah elemen yang disimpan
         - [ ] is_empty() - mengembalikan nilai true jika heap tidak berisi elemen
@@ -725,6 +743,14 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
     - [ ] [Implementasi (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementasi (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementasi (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+
+- [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+    - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
+    - [ ] [Heap sort in 4 minutes (video)](https://youtu.be/2DmK_H7IdTo)
+    - [ ] [Merge sort in 3 minutes (video)](https://youtu.be/4VqmGXwpLqc)
+    - [ ] [Bubble sort in 2 minutes (video)](https://youtu.be/xli_FI7CuzA)
+    - [ ] [Selection sort in 3 minutes (video)](https://youtu.be/g-PGLbMth_g)
+    - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] Implementasi:
     - [ ] Mergesort: O(n log n) rata-rata dan kasus terburuk
@@ -789,6 +815,8 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] [CS 61B 2014: Graphs berbobot (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Algoritma Serakah: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Komponen yang Sangat Terhubung Algoritma Graphs Algoritma Kosaraju (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
+    - [ ] [[Review] Shortest Path Algorithms (playlist) in 16 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
+    - [ ] [[Review] Minimum Spanning Trees (playlist) in 4 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 
 - Kursus Coursera Penuh:
     - [ ] [Algoritma pada Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
@@ -820,7 +848,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Kapan saat yang tepat untuk menggunakannya?
     - Bagaimana rekursi ekor lebih baik daripada tidak?
         - [ ] [Apa Itu Rekursi Ekor Mengapa Sangat Buruk?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Rekursi Ekor (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
+        - [ ] [Rekursi Ekor (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 
 - ### Pemrograman Dinamis
     - Anda mungkin tidak akan melihat masalah pemrograman dinamis dalam wawancara Anda, tetapi ada baiknya mengenali masalah sebagai kandidat untuk pemrograman dinamis (Dynamic Programming).
@@ -1102,7 +1130,7 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - [ ] [Cara Menghapus Duplikat dalam Kumpulan Data Besar](https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/)
     - [ ] [Sekilas tentang skala dan budaya teknik Etsy dengan Jon Cowie (video)](https://www.youtube.com/watch?v=3vV4YiqKm1o)
     - [ ] [Apa yang Membawa Amazon ke Arsitektur Layanan Mikro Sendiri](http://thenewstack.io/led-amazon-microservices-architecture/)
-    - [ ] [Untuk Mengompresi Atau Tidak Mengompresi, Itu Pertanyaan Uber](https://eng.uber.com/trip-data-squeeze/)
+    - [ ] [Untuk Mengompresi Atau Tidak Mengompresi, Itu Pertanyaan Uber](https://eng.uber.com/trip-data-squeeze-json-encoding-compression/)
     - [ ] [Asyncio Tarantool Queue, Masuk Antrian](http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html)
     - [ ] [Kapan Perkiraan Pemrosesan Kueri Digunakan?](http://highscalability.com/blog/2016/2/25/when-should-approximate-query-processing-be-used.html)
     - [ ] [Transisi Google Dari Pusat Data Tunggal, Ke Failover, Ke Arsitektur Native Multihomed](http://highscalability.com/blog/2016/2/23/googles-transition-from-single-datacenter-to-failover-to-a-n.html)
@@ -1157,7 +1185,6 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
     - Latihan:
         - [Desain jaringan CDN: artikel lama](https://kilthub.cmu.edu/articles/Globally_distributed_content_delivery/6605972)
         - [Rancang sistem pembuatan ID unik secara acak](https://blog.twitter.com/2010/announcing-snowflake)
-        - [Rancang permainan kartu multipemain daring](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)
         - [Mendesain database nilai kunci](http://www.slideshare.net/dvirsky/introduction-to-redis)
         - [Rancang sistem berbagi gambar](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
         - [Rancang sistem rekomendasi](http://ijcai13.org/files/tutorial_slides/td3.pdf)
@@ -1173,8 +1200,9 @@ Graf (Graphs) dapat digunakan untuk merepresentasikan banyak masalah dalam ilmu 
 
 - [ ] Seri video subjek pendek berdurasi 2-3 menit (23 video)
     - [Video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Seri video subjek pendek berdurasi 2-5 menit - Michael Sambol (18 video):
-    - [Video](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+- [ ] Seri video subjek pendek berdurasi 2-5 menit - Michael Sambol (48 video):
+    - [Video](https://www.youtube.com/@MichaelSambol)
+    - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Video Sedgewick - Algoritma I](https://www.coursera.org/learn/algorithms-part1)
 - [ ] [Video Sedgewick - Algoritma II](https://www.coursera.org/learn/algorithms-part2)
 
@@ -1208,7 +1236,6 @@ Tambahan:
 - [Matematika untuk Topcoders](https://www.topcoder.com/community/competitive-programming/tutorials/mathematics-for-topcoders/)
 - [Pemrograman Dinamis - Dari Pemula hingga Mahir](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - [Materi Wawancara MIT](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php)
-- [Latihan untuk menjadi lebih baik pada bahasa tertentu](http://exercism.io/languages)
 
 **Baca dan Lakukan Masalah Pemrograman (dalam urutan ini):**
 
@@ -1245,7 +1272,7 @@ Situs tantangan:
 - [TopCoder](https://www.topcoder.com/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Project Euler (math-focused)](https://projecteuler.net/index.php?section=problems)
 - [Code Exercises](https://code-exercises.com)
 
@@ -1260,7 +1287,7 @@ Repo tantangan:
 - [Tantangan Interview Coding Interaktif dengan Python](https://github.com/donnemartin/interactive-coding-challenges)
 
 Wawancara Mock:
-- [Gainlo.co: Mock pewawancara dari perusahaan besar](http://www.gainlo.co/) - Saya menggunakan ini dan itu membantu saya bersantai untuk layar ponsel dan wawancara di tempat
+- [Gainlo.co: Mock pewawancara dari perusahaan besar](http://www.gainlo.co/#!/) - Saya menggunakan ini dan itu membantu saya bersantai untuk layar ponsel dan wawancara di tempat
 - [Pramp: Wawancara mengejek dari / dengan teman sebaya](https://www.pramp.com/) - model wawancara praktik peer-to-peer
 - [Refdash: Wawancara tiruan dan wawancara yang dipercepat](https://refdash.com/) - juga membantu kandidat mempercepat dengan melewatkan beberapa wawancara dengan perusahaan teknologi
 - [interviewing.io: Berlatih wawancara tiruan dengan insinyur senior](https://interviewing.io) - wawancara desain algoritme / sistem tanpa nama dengan insinyur senior dari FAANG secara anonim.
@@ -1579,6 +1606,7 @@ Anda tidak pernah benar-benar selesai.
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [Implementasi AVL Tree (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split Dan Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
+        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
         - Dalam praktek:
@@ -1598,7 +1626,8 @@ Anda tidak pernah benar-benar selesai.
         - [Aduni - Algoritma - Kuliah 4 (link lompat ke titik awal) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algoritma - Kuliah 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
-        - [Pengantar Pencarian Biner Dan Red-Black Tree](https://www.topcoder.com/community/competitive-programming/tutorials/an-introduction-to-binary-search-and-red-black-trees/)
+        - [Pengantar Pencarian Biner Dan Red-Black Tree](https://www.topcoder.com/thrive/articles/An%20Introduction%20to%20Binary%20Search%20and%20Red-Black%20Trees)
+        - [[Review] Red-Black Trees (playlist) in 30 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 
     - **2-3 search trees**
         - Dalam praktek:
@@ -1638,6 +1667,7 @@ Anda tidak pernah benar-benar selesai.
         - [MIT 6.851 - Model Hirarki Memori (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
                 - covers cache-oblivious B-Trees, very interesting data structures
                 - the first 37 minutes are very technical, may be skipped (B is block size, cache line size)
+        - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
 - ### k-D Trees
@@ -1682,7 +1712,10 @@ Anda tidak pernah benar-benar selesai.
     - [Bagilah & Taklukkan: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
 - ### Matematika diskrit
-    - lihat video di bawah ini
+    - Apa itu Matematika Diskrit?
+        - [Perkenalan Matematika Diskrit](https://www.youtube.com/watch?v=p2b2Vb-cYCs)
+    - Kuliah Gratis Matematika Diskrit
+        - [Kuliah Gratis Matematika Diskrit *CS 70: Discrete Mathematics and Probability Theory (Spring 2015, UC Berkeley)*()](http://www.infocobuild.com/education/audio-video-courses/computer-science/CS70-Spring2015-Berkeley/lecture-01.html)
 
 - ### Pembelajaran Mesin (Machine Learning)
     - Kenapa ML?
@@ -1692,17 +1725,15 @@ Anda tidak pernah benar-benar selesai.
     - [Alat pembelajaran Mesin Cloud Google (video)](https://www.youtube.com/watch?v=Ja2hxBAwG_0)
     - [Resep Pembelajaran Mesin Google Developers (Scikit Learn & Tensorflow) (video)](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
     - [Tensorflow (video)](https://www.youtube.com/watch?v=oZikw5k_2FM)
-    - [Tutorial Tensorflow](https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+    - [Tutorials Tensorflow](https://www.tensorflow.org/tutorials)
     - [Panduan Praktis untuk mengimplementasikan Jaringan Neural dengan Python (menggunakan Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
     - Kursus:
         - [Kursus pemula yang bagus: Pembelajaran Mesin](https://www.coursera.org/learn/machine-learning)
               - [video saja](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW)
               - lihat video 12-18 untuk review aljabar linier (14 dan 15 adalah duplikat)
-        - [Jaringan Neural untuk Pembelajaran Mesin](https://www.coursera.org/learn/neural-networks)
         - [Nanodegree Deep Learning Google](https://www.udacity.com/course/deep-learning--ud730)
-        - [Nanodegree Machine Learning Engineer Google / Kaggle](https://www.udacity.com/course/machine-learning-engineer-nanodegree-by-google--nd009)
+        - [Nanodegree Machine Learning Engineer Google / Kaggle](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t)
         - [Nanodegree, Insinyur Mobil Mengemudi Mandiri](https://www.udacity.com/drive)
-        - [Kursus Online Metis ($99 selama 2 bulan)](http://www.thisismetis.com/explore-data-science)
     - Sumber:
         - Buku:
             - [Pembelajaran Mesin Python](https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/)
@@ -1812,7 +1843,7 @@ Duduk dan nikmati. "Netflix dan keterampilan": P
 
 - [Ilmu Komputer 70, 001 - Musim Semi 2015 - Matematika Diskrit dan Teori Probabilitas](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
 
-- [Matematika Diskrit oleh Shai Simonson (19 video)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [Matematika Diskrit oleh Shai Simonson (19 video)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [Matematika Diskrit Bagian 1 oleh Sarada Herke (5 video)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
@@ -1853,7 +1884,7 @@ Duduk dan nikmati. "Netflix dan keterampilan": P
 
 - [MIT 6.858 Computer Systems Security, Musim Gugur 2014](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- [Stanford: Paradigma Pemrograman (27 video)](https://www.youtube.com/view_play_list?p=9D558D49CA734A02)
+- [Stanford: Paradigma Pemrograman (27 video)](https://www.youtube.com/playlist?list=PL9D558D49CA734A02)
 
 - [Pengantar Kriptografi oleh Christof Paar](https://www.youtube.com/playlist?list=PL6N5qY2nvvJE8X75VkXglSrVhLv1tVcfy)
     - [Situs Kursus bersama dengan Slide dan Kumpulan Soal](http://www.crypto-textbook.com/)
@@ -1918,3 +1949,4 @@ Terjemahan Bahasa Indonesia dipersembahkan oleh
 - @[hwhung0111](https://github.com/hwhung0111)
 - @[fahminlb33](https://github.com/fahminlb33)
 - @[davidsetyanugraha](https://github.com/davidsetyanugraha)
+- @[afrizal0](https://github.com/afrizal0)
