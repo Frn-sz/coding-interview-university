@@ -22,15 +22,16 @@
 - [Español](translations/README-es.md)
 - [German](translations/README-de.md)
 - [Japanese (日本語)](translations/README-ja.md)
+- [Marathi](translations/README-mr.md)
 - [Polish](translations/README-pl.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Russian](translations/README-ru.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Urdu - اردو](tanslations/README-ur.md)
+- [Urdu - اردو](translations/README-ur.md)
 - [Uzbek](translations/README-uz.md)
 - [বাংলা - Bangla](translations/README-bn.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)
-- [中文版本](translations/README-cn.md)
+- [简体中文](translations/README-cn.md)
 - [繁體中文](translations/README-tw.md)
 </details>
 
@@ -305,6 +306,7 @@ You may not need it, but here are some sites for learning a new language:
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://programiz.pro/)
 
 ### For your Coding Interview
 
@@ -799,7 +801,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [MIT 6.006 Introduction to Algorithms: Binary Heaps](https://www.youtube.com/watch?v=Xnpo1atN-Iw&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=12)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
